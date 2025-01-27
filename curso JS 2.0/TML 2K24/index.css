@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: "roboto" Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-backgroud: #151d1f;
+  --color: #fff;
+  --color-two: rgb(138, 46, 135);
+  --color-br: rgba(255, 5, 238, 0.344);
+  --padding: 1rem 0rem;
+  --margin: 1rem 2rem;
+  --font-size: 3rem;
+  --border: 2rem;
+  --font-size-two: 1.75rem;
+}
+
+main {
+  color: var(--color);
+}
+
+.header__top {
+  position: relative;
+  min-height: 100vh;
+}
+
+.header__h1 {
+  padding-top: 5vh;
+  margin: var(--margin);
+  font-size: 5rem;
+  color: var(--color);
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.header__text {
+  text-transform: uppercase;
+  letter-spacing: .75rem;
+  font-weight: 500;
+  text-align:center;
+  color: var(--color);
+  font-size: 1rem;
+  padding-top: 1.70rem;
+
+}
+
+.header__img {
+  object-fit: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -10;
+  box-shadow: 0 1rem 2rem 0.5rem rgba(175, 15, 159, 0.25);
+  
+}
+
+body {
+  background-color: var(--color-backgroud);
+}
+
+h2 {
+  margin: var(--margin);
+  padding: var(--padding);
+}
+.main__history {
+  margin-left: 0;
+  font-size: var(--font-size);
+  text-align: center;
+}
+
+.main__text {
+  font-size: var(--font-size-two);
+  letter-spacing: 0.2rem;
+  text-transform: none;
+  margin: var(--margin);
+}
+
+.locais__h2 {
+  font-size: var(--font-size);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+li {
+  background-color: var(--color-br);
+  font-size: 2rem;
+  display: inline;
+  border: 1rem solid var(--color-two);
+  border-radius: 9999px;
+  padding: var(--padding);
+  margin: 2rem 2rem;
+ margin-left: 4rem;
+ text-align: center;
+  
+}
+
+.locais__img3 {
+  height: 5rem;
+  display: inline;
+  margin: var(--margin);
+  padding-left: 3rem;
+  padding-top: 2rem;
+  
+}
+
+.palcos__titulos{
+  font-size: var(--font-size);
+  text-align: left;
+  padding: 10rem 0 5rem 0;
+
+  
+}
+
+#id__palcos {
+  overflow:hidden;
+
+}
+
+
+.palcos__h2{
+  font-size: 4rem;
+  font-weight:600;
+  font-style: italic;
+  text-align: left;
+  display: inline-block
+  
+}
+
+
+.palcos__img{
+display: flex;
+height: 35rem;
+width: 50rem;
+margin-right: 3rem;
+margin-left: 3rem;
+margin-top: 3rem;
+float: right;
+border-radius: 50px;
+box-shadow: 0 1rem 2rem 0.5rem rgba(175, 15, 159, 0.25);
+
+
+
+}
+
+.palcos{
+  text-align:left;
+  font-size: 2.5rem;
+  margin-bottom: 10rem;
+  line-height: 1.75;
+  margin-left: 2rem;
+  font-style: italic;
+  
+}
+
+
+footer{
+  color: var(--color);
+  font-size: medium;
+  font-size: 2rem;
+}
+
+

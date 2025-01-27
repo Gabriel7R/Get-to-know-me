@@ -1,0 +1,28 @@
+body {
+ 
+  line-height: 2rem;
+  background-color: #057bb1;
+}
+
+header {
+  color: #fff;
+font-family: normal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+section {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.142);
+  border-radius: 1rem;
+  width: 40rem;
+  margin: auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+
+footer {
+  color: #fff;
+  
+  text-align: center;
+}
